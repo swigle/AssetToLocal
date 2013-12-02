@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+id="org.apache.cordova.assettolocal"
+    version="1.0">
+    <name>AssetToLocal</name>
+    <description>Asset to Local Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,copy,asset,assets,local</keywords>
+
+    <js-module src="www/assettolocal.js" name="AssetToLocal">
+        <clobbers target="window.assetToLocal" />
+    </js-module>
+    
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="AssetToLocal" >
+                <param name="android-package" value="org.apache.cordova.assetToLocal.AssetToLocal"/>
+            </feature>
+        </config-file>
+        
+        <source-file src="src/android/AssetToLocal.java" target-dir="src/org/apache/cordova/assettolocal" />
+     </platform>
+</plugin>
