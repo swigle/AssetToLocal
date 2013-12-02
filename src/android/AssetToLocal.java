@@ -6,7 +6,7 @@
  * Copyright (c) 2011, IBM Corporation
  */
 
-package com.phonegap.plugins.assettolocal;
+package org.apache.cordova.assettolocal;
 
 import java.io.File;
 import java.io.FileOutputStream;
