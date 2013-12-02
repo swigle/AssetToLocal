@@ -28,7 +28,7 @@ import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.PluginResult;
 
-public class assettolocal extends CordovaPlugin {
+public class AssetToLocal extends CordovaPlugin {
     private static final String ASSETS = "file:///android_asset/";
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) {
