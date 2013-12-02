@@ -17,7 +17,7 @@ id="org.apache.cordova.assettolocal"
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AssetToLocal" >
-                <param name="android-package" value="org.apache.cordova.assetToLocal.AssetToLocal"/>
+                <param name="android-package" value="org.apache.cordova.assettolocal.AssetToLocal"/>
             </feature>
         </config-file>
         
