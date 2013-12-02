@@ -7,7 +7,7 @@ var AssetToLocal = function () {};
  *
  * @param url           The url to play
  */
-AssetToLocal.prototype.play = function(url) {
+AssetToLocal.prototype.copy = function(url) {
     exec(null, null, "AssetToLocal", "copy", [url]);
 };
 
