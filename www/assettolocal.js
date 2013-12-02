@@ -11,5 +11,5 @@ AssetToLocal.prototype.copy = function(url) {
     exec(null, null, "AssetToLocal", "copy", [url]);
 };
 
-var assetToLocal = new AssetToLocal();
-module.exports = assetToLocal;
+var assettolocal = new AssetToLocal();
+module.exports = assettolocal;
